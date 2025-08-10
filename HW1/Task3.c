@@ -4,8 +4,8 @@ int main(){
 	printf("  ***\n");
 	printf(" *****\n");
 	printf("*******\n");
-	printf("HHHHHHH\n");
-	printf("ZZZZZZZ\n");
+	printf(" HHOHH\n");
+	printf(" ZZZZZ\n");
 	
 	return(0);
 	}
