@@ -8,7 +8,7 @@ int main()
     int a, b, c;
 	setlocale(LC_ALL, "");
     
-    printf("¬ведите число\n");
+   // printf("¬ведите число\n");
     scanf("%d", &a);
     
     b = a/100;

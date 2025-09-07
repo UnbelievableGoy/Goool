@@ -8,11 +8,11 @@ int main()
     float d;
     setlocale(LC_ALL, "");
     
-    printf("¬ведите три числа\n");
+   // printf("¬ведите три числа\n");
     scanf("%d%d%d", &a, &b, &c);
     d = (float)(a+b+c)/3;
     
-    printf("d = %.2f", d);
+    printf("%.2f", d);
     //printf("%d*%d*%d=%d", a, b, c, a*b*c);
     return 0;
 }

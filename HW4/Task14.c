@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
+
 
 int main()
-{
-    int a, b, c;
+{ 
+	
+    int a, b, c, max;
 	setlocale(LC_ALL, "");
     
-   // printf("Ââåäèòå ÷èñëî\n");
+   // printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾\n");
     scanf("%d", &a);
     
     b = a/100;
@@ -18,7 +19,10 @@ int main()
     
     a = a - 10*c;
     
-    printf("%d", a*b*c);
+    max = b >= c?b:c;
+    max = max >a?max:a;
     
+    printf("%d", max);
+    //printf("%d*%d*%d=%d", a, b, c, a*b*c);
     return 0;
 }
